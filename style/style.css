@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "porsche";
+    src: url(../font/911porschav33d.ttf);
+}
+
+@font-face {
+    font-family: porsche-bold ;
+    src: url(../font/911porschav3bold.ttf);
+}
+body {
+    font-family: "porsche";
+    overflow: hidden;
+
+}
+
+img{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock{
+    font-size: 10em;
+}
+
+#titulo{
+    font-family: porsche-bold;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 480px) {
+    img{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clock{
+        font-size: 80px;
+        max-width: 100%;
+        margin-top: 100px;
+        
+     }
+  }
+
+.manha{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.noite{
+    background-color: black;
+    color: white;
+}
