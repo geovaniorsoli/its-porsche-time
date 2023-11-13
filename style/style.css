@@ -1,7 +1,7 @@
 /* fontes */
 @font-face {
     font-family: "porsche";
-    src: url(../font/911porschav3bold.ttf);
+    src: url(../font/911porschav3.ttf);
 }
 
 @font-face {
@@ -133,4 +133,9 @@ img{
 
 .font{
     font-family: "nowe";
+}
+
+.modal-content{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
