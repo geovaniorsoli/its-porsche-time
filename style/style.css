@@ -1,18 +1,26 @@
+/* fontes */
 @font-face {
     font-family: "porsche";
-    src: url(../font/911porschav33d.ttf);
+    src: url(../font/911porschav3bold.ttf);
 }
 
 @font-face {
-    font-family: porsche-bold ;
-    src: url(../font/911porschav3bold.ttf);
+    font-family: "bold";
+    src: url(../font/Montserrat-Bold.ttf);
 }
+
+@font-face {
+    font-family: nowe;
+    src: url(../font/SF-Pro-Display-Medium.otf);
+}
+
 body {
     font-family: "porsche";
     overflow: hidden;
 
 }
 
+/* img */
 img{
     width: 100%;
     margin: 0 auto;
@@ -25,12 +33,25 @@ img{
     font-size: 10em;
 }
 
+/* relogio */
 #titulo{
     font-family: porsche-bold;
     margin: 0 auto;
 }
 
 
+/* temas */
+.manha{
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.noite{
+    background-color: black;
+    color: white;
+}
+
+/* tela menores */
 @media (max-width: 480px) {
     img{
         width: 100%;
@@ -48,12 +69,68 @@ img{
      }
   }
 
-.manha{
-    background-color: rgb(255, 255, 255);
-    color: #000000;
+/* icones */
+
+.botaoicone{
+    display: flex;
+    align-items: center;
 }
 
-.noite{
-    background-color: black;
+.btn-fechar{
+    background-color: rgb(255, 89, 77);
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 121, 111);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
     color: white;
+    font-size: 15px;
+    padding: 7px; 
+}
+
+.btn-fechar:hover{
+    background-color: rgb(255, 141, 133);
+    border-color:  rgba(255, 121, 111, 0);
+}
+
+
+
+
+.btn-github{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(107, 107, 107);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: white;
+    font-size: 15px;
+    padding: 7px; 
+}
+
+.btn-github:hover{
+    background-color: rgb(107, 107, 107);
+}
+
+.btn-duvida{
+    background-color: rgb(255, 157, 77);
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 189, 134);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    color: white;
+    font-size: 15px;
+    padding: 7px; 
+}
+
+.btn-duvida:hover{
+    background-color: rgb(255, 189, 134);
+}
+
+
+
+
+.font{
+    font-family: "nowe";
 }

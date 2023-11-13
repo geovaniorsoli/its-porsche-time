@@ -55,7 +55,7 @@ function setime(){
     var agora = new Date()
     var horas = formatTime(agora.getHours())
 
-    if(horas >= 6 && horas < 19 ){
+    if(horas >= 6 && horas < 18 ){
         body.classList.add('manha')
     }else{
         body.classList.add('noite')

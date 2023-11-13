@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porsche time</title>
     <link rel="shortcut icon" href="./icon/ico.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./style/style.css">
 
@@ -15,6 +18,7 @@
 
 <body>
 
+    <!-- main section -->
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
@@ -31,8 +35,50 @@
     <div id="exibirporsche"> </div>
 
 
+    <!-- modal saiba mais -->
+    <div class="font"> 
+       <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+           <div class="modal-content">
+             <div class="modal-header">
+               <h5 class="modal-title" id="myModalLabel">Sobre</h5>
+                    <button class="botaoicone btn-fechar " data-dismiss="modal" aria-label="Close"><ion-icon name="close-outline"></ion-icon></i> </button>
+               </button>
+             </div>
+             <div class="modal-body">
+               <p>Sempre quando o horario der 9:11 da manha o carro aparece aleatorio</p>
+             </div>
+             <div class="modal-footer">
+               
+             </div>
+           </div>
+        </div>
+       </div>
+</div>
+    <!-- footer -->
+    <div class="position-fixed bottom-0 end-0 p-3 d-flex flex-column align-items-end" id="floating-buttons">
+  
+        <div class="d-block mb-2">
+            <button class="btn-duvida botaoicone" data-toggle="modal" data-target="#myModal">
+                <ion-icon name="help-outline"></ion-icon>
+            </button>
+        </div>
+
+
+        <a href="https://github.com/geovaniorsoli/" class="d-block mb-2 ">
+            <button class="btn-github botaoicone">
+                <ion-icon name="logo-github"></ion-icon>
+            </button>
+        </a>
+
+
+      
+        
+    </div>
+
     <script  src="./js/script.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
