@@ -34,7 +34,7 @@ function time() {
     const clock = document.getElementById("clock")
     clock.textContent = hora + ":" + minutos;
 
-    if (!carroExibido && agora.getHours() === 9 && agora.getMinutes() === 11){
+    if (!carroExibido && agora.getHours() === 9 && agora.getMinutes() === 31){
         RandomPorsche = porsches[Math.floor(Math.random() * porsches.length)]
         mostrarPorsche();
         carroExibido = true;

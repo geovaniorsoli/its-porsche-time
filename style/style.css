@@ -30,12 +30,12 @@ img{
 }
 
 #clock{
-    font-size: 10em;
+    font-size: clamp(10px, 10vw, 10em)
 }
 
 /* relogio */
 #titulo{
-    font-family: porsche-bold;
+    font-family: porsche;
     margin: 0 auto;
 }
 
@@ -69,6 +69,23 @@ img{
      }
   }
 
+
+  @media (max-width: 1366px) {
+    img{
+        width: 66%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #titulo{
+        font-size: 25px;
+    }
+
+
+}
+  
 /* icones */
 
 .botaoicone{
@@ -136,4 +153,21 @@ img{
 .modal-content{
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
+}
+
+.modal-backdrop.show {
+    transition: none;
+}
+
+.modal-backdrop {
+    opacity: 1 !important;
+    background-color: rgba(255, 255, 255, 0.087);
+    backdrop-filter: blur(5px);
+}
+
+.card {
+    opacity: 1 !important;
+    background-color: rgba(255, 255, 255, 0.313);
+    backdrop-filter: blur(10px);
+    color: rgb(255, 255, 255);
 }
