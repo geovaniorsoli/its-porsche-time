@@ -52,17 +52,13 @@ img{
 }
 
 /* tela menores */
-@media (max-width: 480px) {
-    img{
-        width: 100%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media (max-width: 500px) {
+    .img{
+        width: 90%;
+    }     
 
     #clock{
-        font-size: 80px;
+        font-size: 100px;
         max-width: 100%;
         margin-top: 100px;
         
@@ -72,9 +68,8 @@ img{
 
   @media (max-width: 1366px) {
     img{
-        width: 66%;
-        margin: 0 auto;
-        display: flex;
+        margin-bottom: 1000px;
+        display: fixed;
         justify-content: center;
         align-items: center;
     }
