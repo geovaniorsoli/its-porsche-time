@@ -2,16 +2,19 @@ const porsches = [
     { titulo: "Porsche 718 Spyder", foto: "../img/718ppyder.png" },
     { titulo: "Porsche 911 Carrera", foto: "../img/911carrera.png" },
     { titulo: "Porsche 911 Turbo S", foto: "../img/911tubo.png" },
-    { titulo: "Porsche 918 Sypder", foto: "../img/918-spyder.png"  },
+    { titulo: "Porsche 918 Sypder", foto: "../img/918-spyder.png" },
     { titulo: "Porsche 911 GT3RS", foto: "../img/gt3rs.png" },
-    { titulo: "Porsche Macan", foto: "../img/maca.png"  },
+    { titulo: "Porsche Macan", foto: "../img/maca.png" },
     { titulo: "Porsche Panamera", foto: "../img/panamera.png" },
     { titulo: "Porsche GT", foto: "../img/pngwing.com (1).png" },
     { titulo: "Porsche Boxter", foto: "../img/PorscheBoxster.png" },
-    { titulo: "Porsche Cayman", foto: "../img/PorscheCayman.png"},
+    { titulo: "Porsche Cayman", foto: "../img/PorscheCayman.png" },
     { titulo: "Porsche Tycan", foto: "../img/PorscheTaycan.png" },
     { titulo: "Porsche 911 Targa", foto: "../img/targa.png" },
-
+    { titulo: "Porsche 959", foto: "../img/porsche959.png" },
+    { titulo: "Porsche 935", foto: "../img/Porsche935.png"},
+    { titulo: "Porsche 977", foto: "../img/porsche977.png"},
+    { titulo: "Porsche 911gt2", foto: "../img/carlosporsche.png"},
 ];
 
 let carroExibido = false;
