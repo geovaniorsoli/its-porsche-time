@@ -20,6 +20,7 @@ const porsches = [
     { titulo: "Porsche 550", foto: "../img/porsche550.png"},
     { titulo: "Porsche 930", foto: "../img/porsche930.png"},
     { titulo: "Sally Carrera", foto: "../img/sallycarrera.png"},
+    { titulo: "Porsche 911 Dakar", foto: "../img/porsche911dakar.png"},
 ];
 
 let carroExibido = false;
